@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Leave Request" max_length="40" name="x_606236_lms_leave_request" type="collection">
+        <element label="From" max_length="40" name="from" type="glide_date"/>
+        <element choice="1" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <element label="To" max_length="40" name="to" type="glide_date"/>
+    </element>
+</database>
